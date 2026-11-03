@@ -1,12 +1,17 @@
-# Local data folder the server creates and owns
-pet-log-data/
 
+# Local data folder the server creates and owns
 # Python
-__pycache__/
-*.py[cod]
 *.egg-info/
-build/
-dist/
+*.py[cod]
+*.pyc
+.env
+.env.*
 .pytest_cache/
 .venv/
+__pycache__/
+build/
+dist/
+dist/*.tmp
+node_modules/
+pet-log-data/
 venv/
